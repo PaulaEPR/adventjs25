@@ -1,0 +1,6 @@
+# VSCODE
+.vscode/*
+
+# PROJECT
+retos/reto_*/process_*
+/reto_XX/
