@@ -43,3 +43,32 @@ const result3 = manufactureGifts(production3)
 console.log(result3)
 // []
 ```
+
+#### 💡 Soluciones
+```js
+/**
+ * @param {Array<{ toy: string, quantity: number }>} giftsToProduce
+ * @returns {string[]} Array of manufactured gifts
+ */
+function manufactureGifts(giftsToProduce) {
+  const giftList = [];
+  for (let gift of giftsToProduce) {
+    if (gift.quantity > 0) {
+      for (let i = 0 ; i < gift.quantity; i++) {
+        giftList.push(gift.toy);
+      }
+    }
+  }
+  return giftList;
+}
+```
+```js
+/**
+ * @param {Array<{ toy: string, quantity: number }>} giftsToProduce
+ * @returns {string[]} Array of manufactured gifts
+ */
+function manufactureGifts(giftsToProduce) {
+  return giftsToProduce.flatMap(
+    ({toy, quantity}) => quantity > 0 ? Array(quantity).fill(toy) : [])
+}
+```

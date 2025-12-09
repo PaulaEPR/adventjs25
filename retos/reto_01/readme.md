@@ -21,3 +21,29 @@ const good3 = filterGifts(gifts3)
 console.log(good3)
 // []
 ```
+
+#### 💡 Soluciones
+```js
+/**
+ * @param {string[]} gifts - The array of gifts to filter
+ * @returns {string[]} An array with the unique filtered gifts
+ */
+function filterGifts(gifts) {
+  let filteredGifts = []
+  for (let gift of gifts) {
+    if (!gift.includes('#')) {
+      filteredGifts.push(gift)
+    }
+  }
+  return filteredGifts
+}
+```
+```js
+/**
+ * @param {string[]} gifts - The array of gifts to filter
+ * @returns {string[]} An array with the unique filtered gifts
+ */
+function filterGifts(gifts) {
+  return gifts.filter((gift) => !gift.includes('#'))
+}
+```
