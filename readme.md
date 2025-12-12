@@ -16,3 +16,4 @@
 | 08 | [🎁 Encuentra el juguete único](retos/reto_08/readme.md)       | 📗 Fácil   | ⭐⭐⭐⭐⭐ |
 | 09 | [🦌 El reno robot aspirador](retos/reto_09/readme.md)          | 📕 Difícil | ⭐⭐⭐⭐⭐ |
 | 10 | [📨 Profundidad de la magia navideña](retos/reto_10/readme.md) | 📗 Fácil   | ⭐⭐⭐⭐⭐ |
+| 11 | [📹 Regalos sin vigilancia](retos/reto_11/readme.md)           | 📗 Fácil   | ⭐⭐⭐⭐⭐ |
