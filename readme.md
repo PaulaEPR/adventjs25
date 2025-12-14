@@ -17,5 +17,6 @@
 | 09 | [🦌 El reno robot aspirador](retos/reto_09/readme.md)          | 📕 Difícil | ⭐⭐⭐⭐⭐ |
 | 10 | [📨 Profundidad de la magia navideña](retos/reto_10/readme.md) | 📗 Fácil   | ⭐⭐⭐⭐⭐ |
 | 11 | [📹 Regalos sin vigilancia](retos/reto_11/readme.md)           | 📗 Fácil   | ⭐⭐⭐⭐⭐ |
-| 12 | *En proceso*                                                    | --------   | ------------ |
-| 13 | [🏭 La cadena de montaje](retos/reto_13/readme.md)             | 📗 Fácil   | ⭐⭐⭐⭐⭐ |
+| 12 | *En proceso*                                                    | 📙 Medio   | ------------ |
+| 13 | [🏭 La cadena de montaje](retos/reto_13/readme.md)             | 📙 Medio   | ⭐⭐⭐⭐⭐ |
+| 14 | [🗃️ Encuentra el camino al regalo](retos/reto_14/readme.md)    | 📗 Fácil   | ⭐⭐⭐⭐⭐ |
